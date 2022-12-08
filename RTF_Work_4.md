@@ -26,7 +26,7 @@
 В начале работы необходимо открыть проект в Unity, представленный в методических указаниях.
 Установка ML-агента на более позднюю версию:
 
-![](1)
+![](https://github.com/Little-hot-dog/RTF_Work_5/blob/main/1.png)
 
 С помощью Anaconda Prompt нужно активировать ML-агент и скачать библиотеки mlagents 0.28.0 и torch 1.7.1.
 
@@ -35,15 +35,15 @@ conda create -n MLAgents python=3.6
 conda activate MLAgents
 ```
 
-![](2)
+![](https://github.com/Little-hot-dog/RTF_Work_5/blob/main/2.png)
 
-![](3)
+![](https://github.com/Little-hot-dog/RTF_Work_5/blob/main/3.png)
 
 ```
 pip install mlagents==0.28.0
 ```
 
-![](4)
+![](https://github.com/Little-hot-dog/RTF_Work_5/blob/main/4.png)
 
 устанавливаем "torch"
 ```
@@ -209,7 +209,7 @@ month++;
 mlagents-learn Economic.yaml --run-id=Economic –-force
 ```
 
-![](5)
+![](https://github.com/Little-hot-dog/RTF_Work_5/blob/main/5.jpg)
 
 Установим TensorBoard для оценки результатов обучения:
 
@@ -253,13 +253,13 @@ window: 10
 
 После установки TensorBoard появились следующие графики:
 
-![](6)
+![](https://github.com/Little-hot-dog/RTF_Work_5/blob/main/6.jpg)
 
 В следующих запусках меняем значение одного из параметров для того, чтобы проверить, как каждый параметр будет влиять на обучение модели.
 
 Изменим параметр batch_size на 2048.
 
-![](7)
+![](https://github.com/Little-hot-dog/RTF_Work_5/blob/main/7.jpg)
 
 - Cumulative Reward: среднее совокупное вознаграждение за эпизод по всем агентам. Должно увеличиваться во время успешной тренировки. О значении на каждой тренировке было сказано в задании 1.
 
